@@ -193,7 +193,7 @@ class CentralEmbedHandler {
                     .setAuthor({ 
                         name: `${trackInfo.title}`, 
                         iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif',
-                        url: 'https://discord.gg/xQF9f9yUEM' 
+                        url: 'https://discord.gg/29RFuB6Ucj' 
                     })
                     .setDescription([
                         `**🎤 Artist:** ${trackInfo.author}`,
@@ -209,7 +209,7 @@ class CentralEmbedHandler {
                     .setThumbnail(trackInfo.thumbnail || 'https://cdn.discordapp.com/emojis/896724352949706762.gif')
                     .setImage(trackInfo.paused ? null : 'https://i.ibb.co/KzbPV8jd/aaa.gif')
                     .setFooter({ 
-                        text: `Ultimate Music Bot • ${statusText} Developed By GlaceYT`,
+                        text: `Ultimate Music Bot • ${statusText} Developed By EM OFFICIAL TEAM`,
                         iconURL: this.client.user.displayAvatarURL()
                     })
                     .setTimestamp();
@@ -260,10 +260,10 @@ class CentralEmbedHandler {
                         inline: false
                     }
                 )
-                .setImage('https://i.ibb.co/DDSdKy31/ezgif-8aec7517f2146d.gif')
+                .setImage('https://share.creavite.co/68d12b82b905d15738bdcc85.gif')
                 .setThumbnail('https://cdn.discordapp.com/attachments/1234567890/1234567890/music_note.gif') // Add a cute music note gif
                 .setFooter({ 
-                    text: 'Ultimate Music Bot • Developed By GlaceYT!',
+                    text: 'Ultimate Music Bot • Developed By EM OFFICIAL TEAM!',
                     iconURL: this.client.user.displayAvatarURL()
                 })
                 .setTimestamp();
@@ -365,4 +365,5 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
 
