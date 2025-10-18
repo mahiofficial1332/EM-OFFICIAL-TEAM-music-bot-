@@ -1,5 +1,5 @@
 /**
- * Ultimate Music Bot - 
+ * Em Official Music Bot - 
  * 
  * @fileoverview 
  * @module ConfigurationManager
@@ -101,6 +101,7 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
 
